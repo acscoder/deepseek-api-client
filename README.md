@@ -1,1 +1,2 @@
-# deepseek-api-client
+# Unofficial api client for Deepseek 
+
