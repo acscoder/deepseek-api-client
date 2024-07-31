@@ -18,8 +18,9 @@ let api_key = std::env::var("DEEPSEEK_API_KEY").expect("$DEEPSEEK_API_KEY is not
 ```rust
 let mut chat_complete = chat_completion_sync(api_key) ;
 ```
-And you will get a function that take input vector of Message and give back Result of Response 
-unwrap response result then take the first choice response text by function get_response_text
+2. 
+And you will get a function `chat_complete` that take input vector of Message and give back Result of Response 
+unwrap response result then take the first choice response text by function `get_response_text`
 ```rust
 let messages = vec![
             Message {
@@ -31,7 +32,7 @@ let messages = vec![
                 content: "Write Hello world in rust".to_owned(),
             },
         ];
-let res = llm(messages);
+let res = chat_complete(messages);
 let res_text = get_response_text(&res.unwrap(), 0);
 dbg!(res_text);
 ```
