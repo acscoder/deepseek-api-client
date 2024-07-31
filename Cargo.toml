@@ -5,6 +5,8 @@ edition = "2021"
 license = "Apache-2.0"
 license-file = "LICENSE-2.0.txt"
 keywords = ["deepseek", "AI API Client","Deepseek Model","Deepseek API Client"]
+description = "Unofficial api client for Deepseek"
+readme = "README.md"
 
 [dependencies]
 anyhow = "1.0.86"
