@@ -11,7 +11,7 @@ use deepseek_api_client::*;
 let api_key = std::env::var("DEEPSEEK_API_KEY").expect("$DEEPSEEK_API_KEY is not set");
 
 ### Call synchronous function
-#### chat_deepSeek_LLM_synchornous 
+chat_deepSeek_LLM_synchornous 
 
 ### Call acsynchronous function
 
