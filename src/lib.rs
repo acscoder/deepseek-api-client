@@ -263,7 +263,7 @@ pub fn get_response_text(d: &ChatResponses, ind: usize) -> Option<String> {
         None
     }
 }
-fn string_to_ChatResponses(s: &str) -> ChatResponses {
+pub fn string_to_ChatResponses(s: &str) -> ChatResponses {
     let st = s.split("\n\n");
     let fold_init: ChatResponses = ChatResponses!( id: "".to_owned(),
                                 object: "".to_owned(),
