@@ -98,5 +98,4 @@ let _ = rt.block_on(async {
             }
         });
 ```
-3. Do the same with function `code_completion_stream` for code generation with `deepseek-coder` model and `llm_function_call_stream` for function calling
-
+3. Do the same with function `code_completion_stream` for code generation with `deepseek-coder` model and `llm_function_call_stream` for function calling 
