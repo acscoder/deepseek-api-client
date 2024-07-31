@@ -6,6 +6,7 @@ deepseek-api-client = "0.1"
 
 ### Get started
 Load your API key in env var or any secret way 
+
 use deepseek_api_client::*;
 let api_key = std::env::var("DEEPSEEK_API_KEY").expect("$DEEPSEEK_API_KEY is not set");
 
